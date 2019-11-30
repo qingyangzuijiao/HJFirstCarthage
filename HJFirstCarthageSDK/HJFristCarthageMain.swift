@@ -10,6 +10,10 @@ import Foundation
 
 public class HJFristCarthageMain {
     
+    public init() {
+        
+    }
+    
     public func hj_summary() {
         
         print("很荣幸见到你，这是whj的第一个carthage库")
