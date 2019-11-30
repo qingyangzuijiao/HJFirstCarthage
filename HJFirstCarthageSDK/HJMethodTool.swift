@@ -9,9 +9,11 @@
 import Foundation
 
 
-public class HJMethodTool {
+public class HJMethodTool: NSObject {
     
-    public func printMethodListWithObj(obj: AnyObject) {
+    public override init() {}
+    
+    public class func printMethodListWithObj(obj: AnyObject) {
         var count: UInt32 = 0
         let methodList = class_copyMethodList(obj.classForCoder, &count)
         
