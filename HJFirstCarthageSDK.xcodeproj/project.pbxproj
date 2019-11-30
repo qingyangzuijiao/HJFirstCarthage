@@ -11,6 +11,7 @@
 		D220A0F3239243CF00D1D399 /* HJFirstCarthageSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D220A0F2239243CF00D1D399 /* HJFirstCarthageSDKTests.swift */; };
 		D220A0F5239243CF00D1D399 /* HJFirstCarthageSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = D220A0E7239243CF00D1D399 /* HJFirstCarthageSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D220A0FF239243DB00D1D399 /* HJFristCarthageMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D220A0FE239243DB00D1D399 /* HJFristCarthageMain.swift */; };
+		D220A1882392E38500D1D399 /* HJMethodTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D220A1872392E38500D1D399 /* HJMethodTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		D220A0F2239243CF00D1D399 /* HJFirstCarthageSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HJFirstCarthageSDKTests.swift; sourceTree = "<group>"; };
 		D220A0F4239243CF00D1D399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D220A0FE239243DB00D1D399 /* HJFristCarthageMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HJFristCarthageMain.swift; sourceTree = "<group>"; };
+		D220A1872392E38500D1D399 /* HJMethodTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HJMethodTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			children = (
 				D220A0E7239243CF00D1D399 /* HJFirstCarthageSDK.h */,
 				D220A0FE239243DB00D1D399 /* HJFristCarthageMain.swift */,
+				D220A1872392E38500D1D399 /* HJMethodTool.swift */,
 				D220A0E8239243CF00D1D399 /* Info.plist */,
 			);
 			path = HJFirstCarthageSDK;
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D220A1882392E38500D1D399 /* HJMethodTool.swift in Sources */,
 				D220A0FF239243DB00D1D399 /* HJFristCarthageMain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
